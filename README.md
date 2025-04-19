@@ -14,13 +14,14 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-```#Program to find the eigen values and eigen vectors.
-#Developed by: G.GANGA DEVI
-#RegisterNumber:212224240042
+```#Program to find the solution for the given linear equations.
+#Developed by:G.GANGA DEVI 
+#RegisterNumber.:212224240042
 import numpy as np
-A=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
-values,vectors=np.linalg.eig(A)
-print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
+A = np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+B = np.array([-9,4,-1])
+C = np.linalg.solve(A,B)
+print (C)
 ```
 ## Output:
 ![Screenshot (134)](https://github.com/user-attachments/assets/ff56bc14-293c-48cb-8b42-e966d3e091f9)
